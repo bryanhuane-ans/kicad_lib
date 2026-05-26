@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 13.7 0)
+			(at -1.27 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "BQ25071DQCT"
-			(at -12.7 -16.7 0)
+			(at -6.35 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28,7 +28,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BQ25071DQCT"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,8 +37,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25071.pdf?ts=1779774176599"
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,8 +46,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Battery Chargers ICs RoHS"
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,20 +55,64 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "BQ25071DQCT"
-			(at 0 0 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "BQ25071DQCR"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supp. Part #" "C2861115"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "WSON-10-EP(2x3)"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.815"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(symbol "BQ25071DQCT_0_0"
 			(rectangle
-				(start -12.7 -12.7)
-				(end 12.7 12.7)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.41)
 					(type default)
@@ -78,7 +122,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 5.08 0)
+				(at -15.24 5.08 0)
 				(length 5.08)
 				(name "BAT"
 					(effects
@@ -96,7 +140,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 2.54 0)
+				(at -15.24 2.54 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -114,7 +158,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 0 0)
+				(at -15.24 0 0)
 				(length 5.08)
 				(name "IN"
 					(effects
@@ -132,7 +176,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -2.54 0)
+				(at -15.24 -2.54 0)
 				(length 5.08)
 				(name "TS"
 					(effects
@@ -150,7 +194,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 10.16 180)
+				(at 15.24 10.16 180)
 				(length 5.08)
 				(name "THERMALPAD"
 					(effects
@@ -168,7 +212,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 5.08 180)
+				(at 15.24 5.08 180)
 				(length 5.08)
 				(name "CHG"
 					(effects
@@ -186,7 +230,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 2.54 180)
+				(at 15.24 2.54 180)
 				(length 5.08)
 				(name "ISET"
 					(effects
@@ -204,7 +248,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 0 180)
+				(at 15.24 0 180)
 				(length 5.08)
 				(name "LDO"
 					(effects
@@ -222,7 +266,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -2.54 180)
+				(at 15.24 -2.54 180)
 				(length 5.08)
 				(name "OUT"
 					(effects
@@ -240,7 +284,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -7.62 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -258,7 +302,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -7.62 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -283,8 +327,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U?"
-			(at 0 11.43 0)
+		(property "Reference" "U"
+			(at 0 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -292,7 +336,7 @@
 			)
 		)
 		(property "Value" "CN3058E"
-			(at 0 0 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,7 +352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C112011.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=QwNcUgEFRFYLVlZWFAVWBlUDFQVbBVBVRgNYVwJTQlExVlNRTlldV1BQRVFXUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -317,7 +361,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single-cell lithium iron phosphate battery charging management"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CONSONANCE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "CN3058E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supp. Part #" "C112011"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOP-8-EP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.2295"
 			(at 0 0 0)
 			(effects
 				(font
@@ -336,30 +434,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 0) (xy -3.81 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -2.54) (xy -3.81 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(pin input line
@@ -383,7 +457,7 @@
 			(pin input line
 				(at -11.43 1.27 0)
 				(length 2.54)
-				(name "DONE"
+				(name "~{DONE}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -401,7 +475,7 @@
 			(pin input line
 				(at -11.43 -2.54 0)
 				(length 2.54)
-				(name "CHRG"
+				(name "~{CHRG}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -509,7 +583,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MCP73123T-22SI_MF"
+	(symbol "MCP73123T-22SI/MF"
 		(pin_names
 			(offset 1.016)
 		)
@@ -517,7 +591,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.186 13.369 0)
+			(at -1.27 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +600,7 @@
 			)
 		)
 		(property "Value" "MCP73123T-22SI_MF"
-			(at -10.1835 -12.7293 0)
+			(at -10.16 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -544,7 +618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C623831.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=QwNcUgEFRFYLVlZWFAVWBlUDFQVbBVBVRgNYVwJTQlExVlNRTlldV1JfQ1BZXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR1FaSQwSGg0%3D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -553,7 +627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Lithium Iron Phosphate (LiFePO4) Battery Charge Management Controller with Input Overvoltage Protection"
 			(at 0 0 0)
 			(effects
 				(font
@@ -562,7 +636,61 @@
 				(hide yes)
 			)
 		)
-		(symbol "MCP73123T-22SI_MF_0_0"
+		(property "Manufacturer" "MICROCHIP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "MCP73123T-22SI/MF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supp. Part #" "C623831"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TDFN-10-EP(3x3)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.7143"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MCP73123T-22SI/MF_0_0"
 			(rectangle
 				(start -10.16 12.7)
 				(end 10.16 -10.16)

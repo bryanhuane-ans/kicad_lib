@@ -606,18 +606,7 @@
 			(checksum "C7A34B1AA12D0229099B8F32CE8A09EE")
 		)
 	)
-	(model "${CAS_3D}/SH-DC005-T20.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
-	)
-	(model "C:/Users/Bryan/Desktop/repositorio-agronodule_systems/pcb-library/models/SH-DC005-T20.step"
+	(model "${AGRONODULE_3DMODEL}/SH-DC005-T20.step"
 		(offset
 			(xyz 0 0 0)
 		)
