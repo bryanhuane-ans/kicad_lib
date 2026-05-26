@@ -456,7 +456,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "U?"
 			(at 0 16.51 0)
 			(effects
 				(font
@@ -464,7 +464,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "74VHC4040FT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -481,7 +481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2649406.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=EVYIVgVVEgUPAwYDEQRbXwYEFQQIBAVVFFJdX1wFQVUxVlNRTllcU1ZVRlVfUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -490,7 +490,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CMOS Digital Integrated Circuits 12-Stage Ripple Carry Binary Counter"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TOSHIBA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part#" "74VHC4040FT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supp. Part#" "C2649406"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-16"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.3277"
 			(at 0 0 0)
 			(effects
 				(font
