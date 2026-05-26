@@ -1,0 +1,182 @@
+(footprint "SW_SK-12D02-G040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SWITCH SLIDE SPDT TH")
+	(property "Reference" "REF**"
+		(at 0.025 -3.075 0)
+		(layer "F.SilkS")
+		(uuid "04a491fc-a335-43d7-b3c1-724e2ee1d0fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SK-12D02-G040"
+		(at -0.822 0.137 0)
+		(layer "F.Fab")
+		(uuid "f85fb668-35cf-42af-9d0b-a3457d41977f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e7e5d2e-cdac-462c-8f45-6149b91e74d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ed60d39-beaf-4173-b910-7f9963e8cd5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.3 -2.2)
+		(end 4.3 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e38276dc-aa95-41c1-93df-425a423f4574")
+	)
+	(fp_line
+		(start -4.3 2.2)
+		(end 4.3 2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4da2e71e-52a8-4b88-8f0f-9e42726cf055")
+	)
+	(fp_circle
+		(center -2.583 -2.781)
+		(end -2.483719 -2.781)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "46546e79-ed0d-42b1-ba0c-e6cec3cc7cf9")
+	)
+	(fp_line
+		(start -4.3 -2.2)
+		(end 4.3 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41d92aac-57cb-4256-bc19-c72c81325816")
+	)
+	(fp_line
+		(start -4.3 2.2)
+		(end -4.3 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c0ce243-5282-4259-b982-7f3637d8e585")
+	)
+	(fp_line
+		(start 4.3 -2.2)
+		(end 4.3 2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9757e06-c71a-4bb5-8ef4-100f9b1dccbc")
+	)
+	(fp_line
+		(start 4.3 2.2)
+		(end -4.3 2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e4c1562-51c8-4ff7-b665-8ff178f62abe")
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9cd0dc32-ba1a-498c-a030-6f2e0179cb7c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5637589d-3ffa-4136-be9b-0c28baf43064")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7e5e88ab-4918-49ce-8db6-3bcb197deda8")
+	)
+	(pad "4" thru_hole circle
+		(at -4.1 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "993506ca-4e01-4a6c-89b1-d9ec1b54d346")
+	)
+	(pad "5" thru_hole circle
+		(at 4.1 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8db530f6-5af7-4666-a304-25516fcdd4f7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD} /../../pcb-library/models/SK-12D02-G040.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
