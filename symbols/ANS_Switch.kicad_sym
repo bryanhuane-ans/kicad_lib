@@ -9,7 +9,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
+		(property "Reference" "J?"
 			(at -0.508 4.826 0)
 			(effects
 				(font
@@ -91,7 +91,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sup. Part #" "C22383474"
+		(property "Supp. Part #" "C22383474"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Through Hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0577"
 			(at 0 0 0)
 			(effects
 				(font
@@ -419,15 +437,6 @@
 				(hide yes)
 			)
 		)
-		(property "Precio" "0.1277"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 0 0 0)
 			(effects
@@ -437,7 +446,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sup. Part #" "C2930976"
+		(property "Supp. Part #" "C2930976"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Through Hole,Right Angle"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1270"
 			(at 0 0 0)
 			(effects
 				(font
@@ -583,7 +610,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_TS-1088-AR02016"
+		(property "Value" "TS-1088-AR02016"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -601,7 +628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=QwNcUgEFRFYLVlZWFAVWBlUDFQVbBVBVRgNYVwJTQlExVlNRTllcUlRQRVBbUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVhdV11RQU8GEwkK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -610,7 +637,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SWITCH TACTILE SPST SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "TS-1088-AR02016"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supp. Part #" "C720477"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD,4x3mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0538"
 			(at 0 0 0)
 			(effects
 				(font
