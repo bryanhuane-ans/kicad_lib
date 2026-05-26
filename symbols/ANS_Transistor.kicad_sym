@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 0 12.7 0)
+			(at -16.51 -1.016 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "FS8205A"
-			(at 0 10.16 0)
+			(at -13.208 -1.27 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "FS8205A"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2830320.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=EVYIVgVVEgUPAwYDEQRbXwYEFQQIBAVVFFJdX1wFQVUxVlNRTlldVlJeQlBZXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktfQFVADxALGw%3D%3D"
 			(at 0.635 0 0)
 			(effects
 				(font
@@ -45,7 +45,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET 20V 9A SOT-23-6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TECH PUBLIC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part #" "FS8205A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supp. Part #" "C2830320"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" " 0.0471"
 			(at 0 0 0)
 			(effects
 				(font

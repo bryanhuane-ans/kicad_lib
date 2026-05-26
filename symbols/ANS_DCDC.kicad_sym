@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 13.7 0)
+			(at -0.762 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "TPS61170DRVR"
-			(at -12.7 -16.7 0)
+			(at -7.366 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,7 +37,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15163.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=EVYIVgVVEgUPAwYDEQRbXwYEFQQIBAVVFFJdX1wFQVUxVlNRTlldVlRTRVBZUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktRR1NADxALGw%3D%3D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46,7 +46,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.2A High Voltage Boost Converter"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Texas Instruments"
+		(property "Package" "WSON-6(2x2)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "1.2A Switch, 38V High Voltage Boost Converter in 2x2mm QFN Package"
+		(property "Price" " 0.7406"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75,63 +75,39 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "WSON-6 Texas Instruments"
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Mfr. Part #" "TPS61170DRVR"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS61170DRVR/Texas+Instruments/view-part/?ref=snap"
+		(property "Supplier" "LCSC"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MP" "TPS61170DRVR"
+		(property "Supp. Part #" "C15163"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS61170DRVR/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
